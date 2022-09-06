@@ -6,9 +6,9 @@
 
 ## Objetivo do Trabalho
 
-```
+
 Desenvolvimento de uma aplicação distribuída que trabalha de forma cooperativa para alocar e dar nota para salões de festas. 
-```
+
 
 ## Integrantes
 
