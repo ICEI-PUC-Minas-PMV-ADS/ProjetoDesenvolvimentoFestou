@@ -6,7 +6,7 @@
 
 ## Objetivo do Trabalho
 
-```bash
+```
 Desenvolvimento de uma aplicação distribuída que trabalha de forma coordenada e cooperativa para alocar e dar nota para salões de festas. 
 ```
 
