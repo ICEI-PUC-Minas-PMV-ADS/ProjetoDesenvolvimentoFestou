@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Aplicação: Festou
 
-`CURSO`
+`TECNÓLOGO EM ANÁLISE DE DESENVOLVIMENTO DE SISTEMA`
 
-`DISCIPLINA`
+`Eixo 4 - Projeto: Desenvolvimento de uma Aplicação Distribuída - Turma 03 - 2022/2`
 
-`SEMESTRE`
+## Objetivo do Trabalho
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+```bash
+Desenvolvimento de uma aplicação distribuída que trabalha de forma coordenada e cooperativa para alocar e dar nota para salões de festas. 
+```
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Isaac Oliveira Gomes
+* Matheus Silvino de Souza
+* Stephanie da Silva Cendrethe
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
