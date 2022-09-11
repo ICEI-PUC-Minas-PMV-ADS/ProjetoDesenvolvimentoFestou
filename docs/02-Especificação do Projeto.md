@@ -110,15 +110,16 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+|ID| Prioridade | Descrição | Tipo | Solicitante | Status | Data da Conclusão |                                     
+|--|------------|------------|------|-------------|--------|------------------|
+|01| Altíssima | Incluir/Excluir/Alterar informações de um local | Funcional | Equipe | Pendente | Não concluído |
+|02| Altíssima | Incluir/Excluir/Alterar informações de um usuário | Funcional | Equipe | Pendente | Não concluído |
+|03| Alta | Geração de um relatório do usuário interessado na alocação | Funcional | Equipe | Pendente | Não concluído |
+|04| Média | Gerar relatório final a respeito do status de alocação de espaço | Funcional | Equipe | Pendente | Não concluído |
+|05| Média | Tempo de acesso a Aplicação | Não Funcional | Equipe | Pendente | Não concluído |
+|06| Alta | Ambiente de fácil uso | Não Funcional | Equipe | Pendente | Não concluído |
+|07| Média | Proteção a erros de usuários | Não Funcional | Equipe | Pendente | Não concluído |
+|08| Média | Estética da interface |Não Funcional | Equipe | Pendente | Não concluído |
 
 # Gerenciamento de Projeto
 
