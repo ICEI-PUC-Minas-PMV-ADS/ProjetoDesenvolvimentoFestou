@@ -166,18 +166,10 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 |Energia | 5 | R$ 2.000
 |TOTAL| | R$ 30.360
 
-Recursos Humanos
+**Recursos Humanos:** 5 Pessoas x 712 horas x R$30/hora = R$21.360
 
-5 Pessoas x 712 horas x R$30/hora = R$21.360
+**Hardware:** Aluguel de 5 computadores durante 4 meses = 250 x 5 = 1000/pessoa x 5 = R$ 5.000
 
-Hardware
+**Rede/Internet:** Serviço de internet R$100/mês x 5 pessoas = R$5.000
 
-Aluguel de 5 computadores durante 4 meses = 250 x 5 = 1000/pessoa x 5 = R$ 5.000
-
-Rede/Internet
-
-Serviço de internet R$100/mês x 5 pessoas = R$5.000
-
-Energia 
-
-Serviço de energia R$100/mês x 5 pessoas = R$5.000
+**Energia:** Serviço de energia R$100/mês x 5 pessoas = R$5.000
