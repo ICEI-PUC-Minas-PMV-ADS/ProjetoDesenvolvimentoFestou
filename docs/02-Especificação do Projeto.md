@@ -135,6 +135,15 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
+### Cronograma do projeto 
+
+![Cronograma](https://user-images.githubusercontent.com/81540139/189550864-03068f41-d7b1-41f1-bc57-701a39405375.png)
+
+### Gráfico de tempo
+
+![Grafico](https://user-images.githubusercontent.com/81540139/189550922-7718b6cc-1c83-44ea-af44-43cc04a05b96.png)
+
+
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
