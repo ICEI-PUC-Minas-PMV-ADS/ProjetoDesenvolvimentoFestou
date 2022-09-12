@@ -97,14 +97,7 @@ As questões que limitam a execução e que se configuram como obrigações clar
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
@@ -144,11 +137,6 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 ![Grafico](https://user-images.githubusercontent.com/81540139/189550922-7718b6cc-1c83-44ea-af44-43cc04a05b96.png)
 
 
-## Gerenciamento de Equipe
-
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
 
 ### Gerenciamento de equipe
 
