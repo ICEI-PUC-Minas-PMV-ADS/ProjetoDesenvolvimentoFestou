@@ -11,8 +11,8 @@ A seguir apresentamos as definições sobre o ambiente utilizado para desenvolvi
 |--------------------|------------------------------------|----------------------------------------|
 |Repositório  | Github | |
 |Documentação | Github | |
-|Gerenciamento | Github| |
-|Relacionamento e estratégias | WhatsApp + teams| |
+|Gestão | Github| |
+|Contato e Gerenciamento | WhatsApp + teams| |
 |Interface | Figma |  
 
 ## Controle de Versão
