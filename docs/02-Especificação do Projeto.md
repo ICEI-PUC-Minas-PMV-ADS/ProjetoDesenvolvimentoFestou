@@ -103,11 +103,7 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 ### Gerenciamento de equipe
 
-![image](https://user-images.githubusercontent.com/81540139/189552773-8e4b5b0a-fbf4-4d36-aa2d-ee5c6abfd8a9.png)
-
-
-![image](img/Gerenciamento de Equipe.jpg)
-
+![image](https://user-images.githubusercontent.com/81540139/195444703-f70f10f9-6f55-475f-9a1b-c5c83cf7663f.png)
 
 
 ## Gestão de Orçamento
