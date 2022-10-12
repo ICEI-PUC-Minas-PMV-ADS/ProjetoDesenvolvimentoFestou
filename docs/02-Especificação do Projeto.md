@@ -114,11 +114,11 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 
 |Recursos| Quantidade | Valor Unitário R$ | Valor Total R$ |
 |-------|-------------------------|----|---|
-|Recursos Humanos| 3 | R$ 14.237,33 |  R$ 42.712 |
-|Hardware| 3 | R$1.000 | R$ 3.0000 |
-|Rede/Internet| 3 | R$400 |  R$ 1.200 | 
-|Energia | 3 | R$400 | R$ 1.200
-|TOTAL| | |R$ 48.112
+|Recursos Humanos| 3 | R$14.237,33 | R$42.712 |
+|Hardware| 3 | R$1.000 | R$3.0000 |
+|Rede/Internet| 3 | R$400 |  R$1.200 | 
+|Energia | 3 | R$400 | R$1.200
+|TOTAL| | | R$48.112
 
 **Recursos Humanos:** 3 Pessoas x 712 horas x $20/hora = R$42.712
 
