@@ -106,20 +106,23 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 ![image](https://user-images.githubusercontent.com/81540139/189552773-8e4b5b0a-fbf4-4d36-aa2d-ee5c6abfd8a9.png)
 
 
-## Gestão de Orçamento
+![image](img/Gerenciamento de Equipe.jpg)
 
+
+
+## Gestão de Orçamento
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
 
 ### Orçamento do projeto
 
-|Recursos| Quantidade  | Valor R$ |
-|-------|-------------------------|----|
-|Recursos Humanos| 3 |  R$ 21.360 |
-|Hardware| 3 |  R$ 3.0000 |
-|Rede/Internet| 3 |  R$ 1.200 | 
-|Energia | 3 | R$ 1.200
-|TOTAL| | R$ 48.112
+|Recursos| Quantidade | Valor Unitário R$ | Valor Total R$ |
+|-------|-------------------------|----|---|
+|Recursos Humanos| 3 | R$ 14.237,33 |  R$ 21.360 |
+|Hardware| 3 | R$1.000 | R$ 3.0000 |
+|Rede/Internet| 3 | R$400 |  R$ 1.200 | 
+|Energia | 3 | R$400 | R$ 1.200
+|TOTAL| | |R$ 48.112
 
 **Recursos Humanos:** 3 Pessoas x 712 horas x $20/hora = R$42.712
 
