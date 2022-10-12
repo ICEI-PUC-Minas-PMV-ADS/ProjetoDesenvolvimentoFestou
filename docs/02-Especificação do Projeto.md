@@ -93,17 +93,17 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 ### Cronograma do projeto 
 
-![Cronograma](https://user-images.githubusercontent.com/81540139/189550864-03068f41-d7b1-41f1-bc57-701a39405375.png)
+
+![Cronograma do projeto](img/Cronograma%20do%20Projeto.jpg)
 
 ### Gráfico de tempo
 
-![Grafico](https://user-images.githubusercontent.com/81540139/189550922-7718b6cc-1c83-44ea-af44-43cc04a05b96.png)
 
-
+![Grafico de Tempo](img/Gr%C3%A1fico%20de%20Tempo.jpg)
 
 ### Gerenciamento de equipe
 
-![image](https://user-images.githubusercontent.com/81540139/195444703-f70f10f9-6f55-475f-9a1b-c5c83cf7663f.png)
+![Gerenciamento de Equipe](img/Gerenciamento%20de%20equipe.jpg)
 
 
 ## Gestão de Orçamento
