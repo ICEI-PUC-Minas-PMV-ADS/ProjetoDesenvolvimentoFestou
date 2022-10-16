@@ -9,11 +9,11 @@ A seguir apresentamos as definições sobre o ambiente utilizado para desenvolvi
 
 |Ambiente| Plataforma |Link de Acesso|
 |--------------------|------------------------------------|----------------------------------------|
-|Repositório  | Github | |
+|Repositório  | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/ProjetoDesenvolvimentoFestou|
 |Documentação | Github | |
 |Gestão | Github| |
 |Contato e Gerenciamento | WhatsApp + teams| |
-|Interface | Figma |  
+|Projeto de Interface | Figma |  
 
 ## Controle de Versão
 
@@ -53,10 +53,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Apresente a divisão de papéis entre os membros do grupo.
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Isaac;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Scrum Master: Isaac Oliveira;
+- Product Owner: Stephanie Cendrethe;
+- Equipe de Desenvolvimento: Matheus Silvino, Stephanie Cendrethe, Isaac Oliveira;
+- Equipe de Design: Matheus Silvino.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
