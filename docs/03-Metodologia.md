@@ -89,6 +89,8 @@ As ferramentas empregadas no projeto são:
 - Editor de código: O editor de código utilizado foi o software [Visual Studio Code](https://code.visualstudio.com/), pela facilidade de desenvolvimento que oferece além da facilidade de utilização que os membros do grupo já tinha.
 Também foi utilizado o [GitHub.dev](github.dev), que é a ferramenta de edição de codigo web do GitHub, pois não necessita de instalação de software.
 
+- Ferramenta para validação e testes da API Restful: [Insomnia](https://insomnia.rest). Foi selecionada essa aplicação devido a facilidade de utilização pelos membros do grupo e da utilização da mesma ferramenta nas aulas vistas no microfundamento de API's e WEB Services.
+
 - Ferramentas de comunicação: Para comunicação entre os integrantes da equipe foi utilizado um grupo no aplicativo WhatsApp pela agilidade de facilidade de resoluções de duvidas no dia a dia. Para comunicação com o orientador foi utilizada a ferramenta [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) 
 
 - Ferramentas de desenho de tela (_wireframing_): Para o desenho do projeto de interface foi utilizado a Ferramenta [Figma](figma.com) pois é uma ferramenta bem utilizada no mercado e que os membros do grupo já tinham afinidade de utilização.

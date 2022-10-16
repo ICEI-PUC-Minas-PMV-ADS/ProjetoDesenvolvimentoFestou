@@ -4,6 +4,27 @@
 
 ![Arquitetura da Solução](img/Diagrama.Arquitetura.png)
 
+CSharp: BackEnd
+VSCode: codigo
+SQLServer: 
+Insomnia: 
+
+### Documentação da Implementação da WEB API Rest:
+
+As clases Cliente e Locador implementadas terão as quatro operações básicas CRUD implementadas. A classe Local terá somente as operações Read e Create pois é uma classe Herença da Classe Locador
+
+|Operação| Chamada HTTP | 
+|-|-|
+Create | POST 
+Read | GET
+Update | PUT
+Delete | DELETE
+
+
+![API](img/Documenta%C3%A7%C3%A3o%20da%20implementa%C3%A7%C3%A3o%20da%20WEB%20API%20Rest.jpeg)
+![API](img/Documenta%C3%A7%C3%A3o%20da%20implementa%C3%A7%C3%A3o%20da%20WEB%20API%20Rest%203.jpeg)
+![API](img/Documenta%C3%A7%C3%A3o%20da%20implementa%C3%A7%C3%A3o%20da%20WEB%20API%20Rest%202.jpeg)
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
