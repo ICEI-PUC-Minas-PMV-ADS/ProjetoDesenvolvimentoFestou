@@ -2,16 +2,28 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-![Arquitetura da Solução](img/Diagrama.Arquitetura.png)
 
-CSharp: BackEnd
-VSCode: codigo
-SQLServer: 
-Insomnia: 
+![Aquitetura da solução](img/Aquitetura%20da%20Solu%C3%A7%C3%A3o.png)
 
-### Documentação da Implementação da WEB API Rest:
+Para construção da Aplicação foram utilizadas as seguintes linguagens de programação:
 
-As clases Cliente e Locador implementadas terão as quatro operações básicas CRUD implementadas. A classe Local terá somente as operações Read e Create pois é uma classe Herença da Classe Locador
+Linguagem | Aplicação |
+|--|--|
+BackEnd | CSharp
+WebAPI Rest | CSharp
+FrontEnd WEB | Javascript
+FrontEnd Mobile | React Native
+Software de Codigo | VSCode
+Banco de Dados |SQLServer
+Teste de API | Insomnia
+
+As linguagens foram escolhidas com base na facilidade e conhecimento prévio dos integrantes do grupo, além de que foram as linguagens utilizadas nas aulas ministradas ao longo dos microfundamentos.
+Especificamente a linguagem C# tem vários beneficios que ajudam na decisão de sua utilização como tempo de desenvolvimento mais rápido, alta escalabilidade, orientação a Objeto.
+
+
+## Documentação da Implementação da WEB API Rest:
+
+As clases Cliente e Locador implementadas terão as quatro operações básicas CRUD implementadas. A classe Local terá somente as operações Read e Create pois é uma classe Herença da Classe Locador.
 
 |Operação| Chamada HTTP | 
 |-|-|
