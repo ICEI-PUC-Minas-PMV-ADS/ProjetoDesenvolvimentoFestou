@@ -23,7 +23,7 @@ Especificamente a linguagem C# tem vários beneficios que ajudam na decisão de 
 
 ## Documentação da Implementação da WEB API Rest:
 
-As clases Cliente e Locador implementadas terão as quatro operações básicas CRUD implementadas. A classe Local terá somente as operações Read e Create pois é uma classe Herença da Classe Locador.
+As clases Cliente e Locador implementadas terão as quatro operações básicas CRUD (Create, Read, Update e Delete) implementadas. A classe Local terá somente as operações Read e Create pois é uma classe Herença da Classe Locador.
 
 |Operação| Chamada HTTP | 
 |-|-|
@@ -58,6 +58,12 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
+Na aplaicação temos 3 tabelas, clientes, locador e local, abaixo temos o esquema realcional dos dados:
+
+![Esquema Relacional](img/Esquema%20Relacional.png)
+
+Um cliente pode reservar
+
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
