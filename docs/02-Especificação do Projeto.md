@@ -45,7 +45,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deverá ser uma aplicação distribuída. |  MÉDIA |
+|RNF-001| O site deve ser compatível com os principais navegadores (Google Chrome, Microsoft Edge, Firefox) |  ALTA |
 |RNF-002| O  tempo de resposta das funcionalidades do sistema não deverá ultrapassar 6 segundos. |  BAIXA |
 |RNF-003| O sistema deverá ser de fácil usabilidade. |  BAIXA | 
 
@@ -58,8 +58,8 @@ As questões que limitam a execução e que se configuram como obrigações clar
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 14/12/2022 |
-|02| A equipe não pode contratar um desenvolvedor para auxiliar no trabalho. |
-|03| O aplicativo deve se restringir às tecnologias básicas de um Aplicação distribuída no Frontend/Backend dependendo do andamento do projeto. |
+|02| A equipe não pode subcontratar o desenvolvimento do trabalho. |
+|03| A plataforma deverá se restringir às linguagens HTML, CSS, C# e JavaScript. .|
 
 
 ## Diagrama de Casos de Uso
