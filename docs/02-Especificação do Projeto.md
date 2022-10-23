@@ -24,7 +24,7 @@ Esse projeto tem como intenção o desenvolvimento dessa aplicação focando na 
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. 
 
 ### Requisitos Funcionais
 
@@ -41,23 +41,21 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-007| O sistema deve conter um ferramenta para filtrar os locais de acordo com o gosto do casal. | MÉDIA |
 |RF-008| O sistema deve permitir que o locatário anexe imagens do local. | MÉDIA |
 |RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador. | BAIXA |
+|RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador. | BAIXA |
 
 ### Requisitos não Funcionais
-
-
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ser compatível com os principais navegadores (Google Chrome, Microsoft Edge, Firefox) |  ALTA |
 |RNF-002| O  tempo de resposta das funcionalidades do sistema não deverá ultrapassar 6 segundos. |  BAIXA |
-|RNF-003| O sistema deverá ser de fácil usabilidade. |  BAIXA |
+|RNF-003| O sistema deverá ser de fácil usabilidade. |  MÉDIA |
 |RNF-004| O site deverá ser responsivo para visualização em dispositivos móveis. |  ALTA |
-|RNF-005| O sistema deverá funcionar 24 horas por dia. |  MÉDIA |
+|RNF-005| O site deve ter bom nível de contraste entre os elementos da tela. |  MÉDIA |
 
 ## Restrições
 
 As questões que limitam a execução e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir:
-
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
