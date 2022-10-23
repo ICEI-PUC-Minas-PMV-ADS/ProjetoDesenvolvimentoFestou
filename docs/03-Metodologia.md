@@ -51,17 +51,14 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Utilizaremos o GitHub Projects para desenvolvimento do projeto, status das operações e desenvolvimento da solução.
 
-Utilizaremos o Framework Ágil Scrum para desenvolvimento do projeto, que oferece uma ganho de escala e organziação de tarefas complexas em histórias gerenciáveis que podem ser diluidas em outras pequenas tarefas que faiclitam o entendimento e andamento do desenvolvimento,
-
-Para organização das tarefas da equipe foi utilizado a função de [projetos no GitHub](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/192/views/1), realizando a visualização do tipo *Board*.
 As tarefas terão os seguintes status:
 - **Product Backlog**: Tarefas que foram refinadas e mapeadas para realização mas que ainda não entrarão na sprint atual
 - **To Do**: São as tarefas que foram planejadas para desenvolvimento na sprint atual
-- **In Progress**: São as tarefas que estão sendo desenvolvidas atualmente.
+- **In Progress**: São tarefas que estão sendo executadas no momento pela equipe.
 - **In Review**: Quando uma tarefa é finalizada ela necessita de passar por revisão de entrega para garantir que estão cumprindo os requisitos e definições de completa
-- **Done**: São as tarefas que foram finalizadas e revisadas.
+- **Done**: São tarefas da Sprint que foram concluídas e estão prontas para serem entregues ao usuário.
  
  ![processo](img/proj.png)
 
