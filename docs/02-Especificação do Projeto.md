@@ -38,9 +38,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-004| Em caso de redefinição de senha, o sistema deve enviar um código numérico para o email ou celular do usuário. | MÉDIA|
 |RF-005| O sistema deve permitir ao dono do salão a atribuição de escala de prioridade das demandas.   | MÉDIA |
 |RF-006| O sistema deve permitir a alteração de data/local pelo usuário.  | MÉDIA |
-|RF-007| O sistema deve conter um ferramenta para filtrar os locais de acordo com o gosto do casal. | BAIXA |
-|RF-008| O sistema deve permitir que o locatário anexe imagens do local | BAIXA |
-|RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador | BAIXA |
+|RF-007| O sistema deve conter um ferramenta para filtrar os locais de acordo com o gosto do casal. | MÉDIA |
+|RF-008| O sistema deve permitir que o locatário anexe imagens do local. | MÉDIA |
+|RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador. | BAIXA |
 
 ### Requisitos não Funcionais
 
