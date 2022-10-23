@@ -66,14 +66,20 @@ As tarefas terão os seguintes status:
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: O editor de código utilizado foi o software [Visual Studio Code](https://code.visualstudio.com/), pela facilidade de desenvolvimento que oferece além da facilidade de utilização que os membros do grupo já tinha.
-Também foi utilizado o [GitHub.dev](github.dev), que é a ferramenta de edição de codigo web do GitHub, pois não necessita de instalação de software.
+|Função     |Ferramentas          |
+|-----------|---------------------|
+|Ferramenta de repositório e documentação | Github |
+|Editor de código |Visual Studio Code |
+|Ferramentas de comunicação | Microsoft Teams, WhatsApp |
+|Ferramentas de diagramação e desenho de tela | Figma, Canva|
+|Ferramenta para validação e testes da API Restful | Insomnia |
+|Ferramentas de gestão de projetos | GitHub Projects ]
 
-- Ferramenta para validação e testes da API Restful: [Insomnia](https://insomnia.rest). Foi selecionada essa aplicação devido a facilidade de utilização pelos membros do grupo e da utilização da mesma ferramenta nas aulas vistas no microfundamento de API's e WEB Services.
 
-- Ferramentas de comunicação: Para comunicação entre os integrantes da equipe foi utilizado um grupo no aplicativo WhatsApp pela agilidade de facilidade de resoluções de duvidas no dia a dia. Para comunicação com o orientador foi utilizada a ferramenta [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) 
 
-- Ferramentas de desenho de tela (_wireframing_): Para o desenho do projeto de interface foi utilizado a Ferramenta [Figma](figma.com) pois é uma ferramenta bem utilizada no mercado e que os membros do grupo já tinham afinidade de utilização.
 
-- Ferramenta de Diagramas: A ferramentas de diagramas foi o [LucidChart](https://lucid.app/lucidchart/b781468e-8b72-4445-9c9a-2ffb8191abfe/edit?view_items=RAP00183pjvC%2CuxP0cDD471G1%2CbAP0aMUeDMkJ%2Ci5P0iP~D8QdK%2CP7P0R6OxOEMW%2CJaQ06MPikabB%2CK~P0dsPWNzhr%2CnkQ0D3DlzMyO%2CoDP0eY-jCnjQ%2CCXP0~I2jKhIN%2CZhQ0ifMu4Vjo%2C3CP0Bbl7Tp_Y%2Cs2P0FkMk3cGT%2CTXP0lwj9POvr%2CTTP0z.eSlX.O%2Cw6P0M0~1hKxo%2CyUP0Ao36lFBe%2C4UP0TmS0.dHb%2CeiQ0atMmtdVR%2CK2P0y-x1LNuw%2C65P0sD1LOUpw%2Cg~P0FhauPHk7%2C5~P038M-YZxz%2CHmQ0ja1XtM41%2CBkQ0j~FI~sqg%2CpcQ014C8dUGp%2CVkQ03u2QjU6s%2CQaQ070p8_v5U&invitationId=inv_636674be-5510-4249-82d9-aa0f08acd900) pois é uma ferramente completa que fornece também video aulas e exemplos de diagramas que apoiam em sua construção.
+
+
+
+
 
