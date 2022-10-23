@@ -54,10 +54,10 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 Utilizaremos o GitHub Projects para desenvolvimento do projeto, status das operações e desenvolvimento da solução.
 
 As tarefas terão os seguintes status:
-- **Product Backlog**: Tarefas que foram refinadas e mapeadas para realização mas que ainda não entrarão na sprint atual
-- **To Do**: São as tarefas que foram planejadas para desenvolvimento na sprint atual
+- **Product Backlog**: Tarefas que foram refinadas e mapeadas para realização mas que ainda não entrarão na sprint atual.
+- **To Do**: São as tarefas que foram planejadas para desenvolvimento na sprint atual.
 - **In Progress**: São tarefas que estão sendo executadas no momento pela equipe.
-- **In Review**: Quando uma tarefa é finalizada ela necessita de passar por revisão de entrega para garantir que estão cumprindo os requisitos e definições de completa
+- **In Review**: Quando uma tarefa é finalizada ela necessita de passar por revisão de entrega para garantir que estão cumprindo os requisitos e definições de completa.
 - **Done**: São tarefas da Sprint que foram concluídas e estão prontas para serem entregues ao usuário.
  
  ![processo](img/proj.png)
