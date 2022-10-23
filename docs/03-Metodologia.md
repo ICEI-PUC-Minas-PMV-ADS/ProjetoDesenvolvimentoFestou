@@ -28,12 +28,6 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `testing`: versão em testes do software, para versões que já finalizaram seu desenvolvimento e estão em estado de testes
 - `dev`: versão de desenvolvimento do software
 
-Utilizamos a `main` branch para registrar a versão mais estável e finalizada da aplicação, que já está testada e validada, atendendo os requisitos e entregas que foram levantados nas historias.
-
-A Branch `testing` contém a versão que foi desenvolida na ultima sprint mas que ainda está sendo validada e testada para garantir que atende os requisitos e definições de feito determinadas nas historias.
-
-Já para a parte da aplicação que ainda está sendo desenvolvida utilizamos a Branch `dev`, que contém partes de codigo que ainda estão em produção e não foram finalizadas para testes.
-
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
@@ -41,18 +35,6 @@ etiquetas:
 - `bug`: uma funcionalidade da aplicação encontra-se com problemas
 - `enhancement`: uma funcionalidade que está na main ou na testing branch precisa ser melhorada.
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-As etiquetas de issues 
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -81,6 +63,7 @@ As tarefas terão os seguintes status:
 - **In Review**: Quando uma tarefa é finalizada ela necessita de passar por revisão de entrega para garantir que estão cumprindo os requisitos e definições de completa
 - **Done**: São as tarefas que foram finalizadas e revisadas.
  
+ ![processo](img/proj.png)
 
 ### Ferramentas
 
