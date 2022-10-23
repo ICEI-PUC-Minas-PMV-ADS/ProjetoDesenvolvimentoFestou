@@ -32,12 +32,15 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deverá permitir acesso aos dados cadastrais dos usuários. | ALTA | 
-|RF-002| Abertura da ordem de serviço   | ALTA |
-|RF-003| O sistema deverá permitir ao dono do salão a atribuição de escala de prioridade das demandas.   | ALTA |
-|RF-004| O sistema deverá permitir o gerenciamento da agenda do dono do salão.  | ALTA |
-|RF-005| O sistema deverá permitir a alteração de data pelo usuário.  | MÉDIA |
-|RF-006| O sistema deverá permitir a emissão de um número de ordem de serviço ao qual vai se referir um relatório em sistema à parte.  | BAIXA |
+|RF-001| O sistema deve cadastrar usuários. O Cadastro deve conter : Nome completo, função do usuário no sistema (role), email e senha.  | ALTA |
+|RF-002| O sistema deve permitir acesso aos dados cadastrais dos usuários. | ALTA | 
+|RF-003| O site deve permitir a recuperação e redefinição de senha. | MÉDIA |
+|RF-004| Em caso de redefinição de senha, o sistema deve enviar um código numérico para o email ou celular do usuário. | MÉDIA|
+|RF-005| O sistema deve permitir ao dono do salão a atribuição de escala de prioridade das demandas.   | MÉDIA |
+|RF-006| O sistema deve permitir a alteração de data/local pelo usuário.  | MÉDIA |
+|RF-007| O sistema deve conter um ferramenta para filtrar os locais de acordo com o gosto do casal. | BAIXA |
+|RF-008| O sistema deve permitir que o locatário anexe imagens do local | BAIXA |
+|RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -47,8 +50,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |-------|-------------------------|----|
 |RNF-001| O site deve ser compatível com os principais navegadores (Google Chrome, Microsoft Edge, Firefox) |  ALTA |
 |RNF-002| O  tempo de resposta das funcionalidades do sistema não deverá ultrapassar 6 segundos. |  BAIXA |
-|RNF-003| O sistema deverá ser de fácil usabilidade. |  BAIXA | 
-
+|RNF-003| O sistema deverá ser de fácil usabilidade. |  BAIXA |
+|RNF-004| O site deverá ser responsivo para visualização em dispositivos móveis. |  ALTA |
+|RNF-005| O sistema deverá funcionar 24 horas por dia. |  MÉDIA |
 
 ## Restrições
 
