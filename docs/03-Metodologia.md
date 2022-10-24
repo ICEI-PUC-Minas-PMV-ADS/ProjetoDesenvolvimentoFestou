@@ -43,7 +43,7 @@ etiquetas:
 Apresente a divisão de papéis entre os membros do grupo.
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Isaac Oliveira;
+-- Scrum Master: Isaac Oliveira;
 - Product Owner: Stephanie Cendrethe;
 - Equipe de Desenvolvimento: Matheus Silvino, Stephanie Cendrethe, Isaac Oliveira;
 - Equipe de Design: Matheus Silvino.
