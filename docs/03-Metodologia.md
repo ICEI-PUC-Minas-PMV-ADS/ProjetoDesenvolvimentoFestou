@@ -60,7 +60,7 @@ As tarefas terão os seguintes status:
 - **In Review**: Quando uma tarefa é finalizada ela necessita de passar por revisão de entrega para garantir que estão cumprindo os requisitos e definições de completa.
 - **Done**: São tarefas da Sprint que foram concluídas e estão prontas para serem entregues ao usuário.
  
-O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos do GitHub está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/192 e apresentado na figura abaixo : 
+O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos do GitHub está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/192  e apresentado na figura abaixo : 
  
  ![processo](img/proj.png)
 Quadro Kanban do grupo !
