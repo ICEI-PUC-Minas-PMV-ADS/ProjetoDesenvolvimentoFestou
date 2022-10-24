@@ -41,7 +41,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-007| O sistema deve conter um ferramenta para filtrar os locais de acordo com o gosto do casal. | MÉDIA |
 |RF-008| O sistema deve permitir que o locatário anexe imagens do local. | MÉDIA |
 |RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador. | BAIXA |
-
+|RF-010| O sistema deve conter área de acesso separadas para locatário e locador | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -63,7 +63,7 @@ As questões que limitam a execução e que se configuram como obrigações clar
 |01| O projeto deverá ser entregue no final do semestre letivo (14/12/2022) |
 |02| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 |03| A plataforma deverá se restringir às linguagens HTML, CSS, C# e JavaScript. .|
-
+|03| |
 
 ## Diagrama de Casos de Uso
 
