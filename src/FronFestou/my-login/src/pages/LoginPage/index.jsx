@@ -1,8 +1,11 @@
-import React, {useState} from "react";
+import React, {useState, useContext} from "react";
 
 import './styles.css';
+import { AuthContext } from "../../contexts/auth";
 
 const LoginPage = () => {
+    const {authenticated, login} = useContext(AuthContext);
+
     const [email, setEmail] = useState ("");
     const [password, setPassword] = useState ("");
 
@@ -10,12 +13,14 @@ const LoginPage = () => {
         e.preventDefault();
 
         console.log("submit", {email,password});
+        login(email, password);
     };
 
 
     return (
         <div id="login">
             <h1 className="title">Login do Sistema</h1>
+            <p>logado? {String(authenticated)}</p>
             <form className="form" onSubmit={handleSubmit}>
                 <div className="field">
                     <label htmlFor="email">Email</label>

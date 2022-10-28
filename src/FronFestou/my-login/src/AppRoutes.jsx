@@ -8,15 +8,21 @@ import {
 import HomePage from "./pages/HomePgae";
 import LoginPage from "./pages/LoginPage";
 
+import { AuthProvider } from "./contexts/auth";
+import { useState } from "react";
+
 const AppRoutes = () => {
+
   return (
     <Router>
-      <Routes>
-        <Route exact path="/login" element={<LoginPage
-        />} />
-        <Route exact path="/" element={<HomePage
-        />} />
-      </Routes>
+      <AuthProvider>
+        <Routes>
+          <Route exact path="/login" element={<LoginPage
+          />} />
+          <Route exact path="/" element={<HomePage
+          />} />
+        </Routes>
+      </AuthProvider>
     </Router>
   );
 };
