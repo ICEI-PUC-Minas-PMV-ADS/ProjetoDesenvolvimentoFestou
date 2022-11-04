@@ -12,13 +12,16 @@ const HomePage = () =>{
 
     return (
      <>
-        <Link to="/">Home</Link>
+        
         <h1>HomePage</h1>
         <p>{String()}</p>
-        <button onClick={handleLogout}>Logout</button>
+        
         <div>
-        <button onClick={navigate("/saloes")}>Salões</button>
+        <Link to="/">Home </Link>
+        <Link to="/saloes">Saloes </Link>
+        <Link to="/perfil">Perfil</Link>
         </div>
+        <button onClick={handleLogout}>Logout</button>
      </>
     )
 };

@@ -1,4 +1,4 @@
-import React, {Children, useContext} from "react";
+import React, {useContext} from "react";
 
 import {
   BrowserRouter as Router,
@@ -32,21 +32,21 @@ const AppRoutes = () => {
     <Router>
       <AuthProvider>
         <Routes>
-          <Route exact path="/login" element={<LoginPage
-          />} />
-          <Route exact path="/" element={
-          <Private><HomePage/></Private>
-          } 
-          />
-          <Route exact path="/saloes" element={
-          <Saloes/>
-          }
-          />
-          <Route exact path="/perfil" element={
-          <Private><Perfil/></Private>
-          }
-          />
-          </Routes>
+            <Route exact path="/login" element={<LoginPage
+            />} />
+            <Route exact path="/" element={
+            <Private><HomePage/></Private>
+            } 
+            />
+            <Route exact path="/saloes" element={
+            <Saloes/>
+            }
+            />
+            <Route exact path="/perfil" element={
+            <Private><Perfil/></Private>
+            }
+            />
+        </Routes>
       </AuthProvider>
     </Router>
   );

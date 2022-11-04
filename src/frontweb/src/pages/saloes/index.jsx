@@ -1,4 +1,4 @@
-function perfil (){
-    return <h1>perfil</h1>
+function Saloes (){
+    return <h1>Saloes</h1>
 }
-export default perfil
+export default Saloes
