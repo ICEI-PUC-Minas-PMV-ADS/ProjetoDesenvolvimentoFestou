@@ -13,7 +13,7 @@ const LoginPage = () => {
         e.preventDefault();
 
         console.log("submit", {email,password});
-        login(email, password);
+        login(email, password); //integração com o meu context/api
     };
 
 
