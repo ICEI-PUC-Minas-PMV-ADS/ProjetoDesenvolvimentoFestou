@@ -14,6 +14,7 @@ import Saloes from "./pages/saloes";
 import Perfil from "./pages/perfil";
 import { AuthProvider, AuthContext } from "./contexts/auth";
 import Container from "./layout/Container";
+import "./layout/Container.module.css"
 
 const AppRoutes = () => {
   const Private = ({children}) => {
@@ -39,7 +40,7 @@ const AppRoutes = () => {
           <Link to="/saloes">Saloes </Link>
           <Link to="/perfil">Perfil</Link>
           </div>
-          <Container customClass="min-height">
+          <Container className="min-height">
             <Routes>
               
                 <Route exact path="/login" element={<LoginPage
