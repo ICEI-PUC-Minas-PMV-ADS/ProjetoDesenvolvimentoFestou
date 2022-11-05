@@ -1,8 +1,8 @@
 # Inicialmente utilizando Json Server
 Execute:
-npm run backend
+### `npm run backend`
 isso desvia da porta 3000 e inicia o json server
-yarn start
+### `yarn start`
 inicia o react
 
 
