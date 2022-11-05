@@ -1,8 +1,11 @@
-#index {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 75%;
-  padding: 0 2rem;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: 'Open Sans','sans-serif';
+}
+
+html, body, #root {
+  background-color: #efefef;
+  height: 100%;
 }
