@@ -1,4 +1,4 @@
-import styles from './Container.modules.css'
+/*import styles from './Container.module.css'
 
 function Container (props) {
     return (
@@ -7,4 +7,16 @@ function Container (props) {
         </div>
     )
 }
-export default Container
+export default Container */
+
+import React from 'react';
+//import {StyleSheet, View} from  'react-native';
+import styles from './Container.module.css'
+
+const Container = (props) => {
+  return <div className={`${styles.container} ${styles[props.customClass]}`}>
+    {props.children}
+    </div>
+};
+
+export default Container;

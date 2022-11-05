@@ -5,6 +5,7 @@ import {
   Route,
   Routes,
   Navigate,
+  Link
 } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
@@ -12,6 +13,7 @@ import LoginPage from "./pages/LoginPage";
 import Saloes from "./pages/saloes";
 import Perfil from "./pages/perfil";
 import { AuthProvider, AuthContext } from "./contexts/auth";
+import Container from "./layout/Container";
 
 const AppRoutes = () => {
   const Private = ({children}) => {
@@ -30,24 +32,35 @@ const AppRoutes = () => {
 
   return (
     <Router>
-      <AuthProvider>
-        <Routes>
-            <Route exact path="/login" element={<LoginPage
-            />} />
-            <Route exact path="/" element={
-            <Private><HomePage/></Private>
-            } 
-            />
-            <Route exact path="/saloes" element={
-            <Saloes/>
-            }
-            />
-            <Route exact path="/perfil" element={
-            <Private><Perfil/></Private>
-            }
-            />
-        </Routes>
-      </AuthProvider>
+      
+        <AuthProvider>
+          <div>
+          <Link to="/">Home </Link>
+          <Link to="/saloes">Saloes </Link>
+          <Link to="/perfil">Perfil</Link>
+          </div>
+          <Container customClass="min-height">
+            <Routes>
+              
+                <Route exact path="/login" element={<LoginPage
+                />} />
+                <Route exact path="/" element={
+                <Private><HomePage/></Private>
+                } 
+                />
+                <Route exact path="/saloes" element={
+                <Private><Saloes/></Private>
+                }
+                />
+                <Route exact path="/perfil" element={
+                <Private><Perfil/></Private>
+                }
+                />
+              
+            </Routes>
+          </Container>
+        </AuthProvider>
+      <p>Footer</p>
     </Router>
   );
 };
