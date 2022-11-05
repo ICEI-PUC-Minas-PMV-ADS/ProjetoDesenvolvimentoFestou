@@ -1,0 +1,73 @@
+{
+  "locais": [
+    {
+      "name": "José Recepções",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Espaço aberto com Buffet"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Buffet",
+          "cost": "5000",
+          "description": "Buffet servido a festa todo",
+          "id": "79475653-9d65-4eb0-921b-9b12b6c6be52"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Eventos Joselito",
+      "budget": "3000",
+      "category": {
+        "id": "2",
+        "name": "Espaço fechado com buffet"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Espaço aberto com Buffet"
+      },
+      "budget": "3000",
+      "name": "sim",
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "Espaço da hora",
+      "budget": "5000",
+      "category": {
+        "id": "3",
+        "name": "Espaço aberto sem buffet"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Espaço aberto com Buffet"
+    },
+    {
+      "id": 2,
+      "name": "Espaço fechado com buffet"
+    },
+    {
+      "id": 3,
+      "name": "Espaço aberto sem buffet"
+    },
+    {
+      "id": 4,
+      "name": "Espaço fechado sem buffet"
+    }
+  ]
+}

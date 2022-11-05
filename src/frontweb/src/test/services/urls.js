@@ -1,1 +1,0 @@
-export const BASE_URL = ' https://stupid-toes-fall-177-182-115-209.loca.lt';
