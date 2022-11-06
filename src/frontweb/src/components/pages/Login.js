@@ -2,6 +2,10 @@ import React, {useState, useContext} from "react";
 
 import './Login.module.css';
 import { AuthContext } from "../contexts/auth";
+import Input from "../form/Input";
+import SubmitButton from "../form/SubmitButton";
+import styles from '../local/LocalForm.module.css'
+
 
 const LoginPage = () => {
     const {authenticated, login} = useContext(AuthContext);
@@ -21,7 +25,7 @@ const LoginPage = () => {
         <div id="login">
             <h1 className="title">Login do Sistema</h1>
             <p>logado? {String(authenticated)}</p>
-            <form className="form" onSubmit={handleSubmit}>
+            <form className={styles.form} onSubmit={handleSubmit}>
                 <div className="field">
                     <label htmlFor="email">Email</label>
                     <input
@@ -42,6 +46,24 @@ const LoginPage = () => {
                 <div className="actions">
                     <button className="submit">Entrar</button>
                 </div>
+                <Input
+                    type="text"
+                    text="email"
+                    name="name"
+                    placeholder="Insira seu email"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                />
+                <Input
+                    type="Password"
+                    text="senha"
+                    name="Password"
+                    placeholder="Insira sua senha"
+                    id="Password" 
+                    onChange={(e) => setPassword(e.target.value)}
+                    value={password}
+                />
+                <SubmitButton text={"Entrar"} />
             </form>
         </div>
     );
