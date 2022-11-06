@@ -6,6 +6,7 @@ function Perfil() {
     const handleLogout = () => {
       logout();
     }
+    
  return (
    <section>
     <h1>Perfil</h1>

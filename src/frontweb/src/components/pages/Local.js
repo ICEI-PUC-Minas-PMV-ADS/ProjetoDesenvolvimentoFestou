@@ -167,36 +167,6 @@ function Local() {
                 </div>
               )}
             </div>
-            <div className={styles.service_form_container}>
-              <h2>Adicione um serviço:</h2>
-              <button className={styles.btn} onClick={toggleServiceForm}>
-                {!showServiceForm ? 'Adicionar Serviço' : 'Fechar'}
-              </button>
-              <div className={styles.form}>
-                {showServiceForm && (
-                  <ServiceForm
-                    handleSubmit={createService}
-                    btnText="Adicionar Serviço"
-                    localData={local}
-                  />
-                )}
-              </div>
-            </div>
-            <h2>Serviços:</h2>
-            <Container customClass="start">
-              {services.length > 0 &&
-                services.map((service) => (
-                  <ServiceCard
-                    id={service.id}
-                    name={service.name}
-                    cost={service.cost}
-                    description={service.description}
-                    key={service.id}
-                    handleRemove={removeService}
-                  />
-                ))}
-              {services.length === 0 && <p>Não há serviços cadastrados.</p>}
-            </Container>
           </Container>
         </div>
       ) : (

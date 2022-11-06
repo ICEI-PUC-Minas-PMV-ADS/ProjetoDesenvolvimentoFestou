@@ -12,6 +12,7 @@ import Local from './components/pages/Local'
 import { AuthProvider, AuthContext } from "./components/contexts/auth";
 import LoginPage from './components/pages/Login'
 import Perfil from "./components/pages/Perfil";
+import Cadastro from "./components/pages/Cadastro";
 
 const App = () => { 
   const Private = ({children}) => {
@@ -40,6 +41,9 @@ const App = () => {
           <Container customClass="min-height">
             <Route path="/login">
               <LoginPage/>
+            </Route>
+            <Route path="/cadastro">
+              <Cadastro/>
             </Route>
             <Route exact path="/">
             <Private><Home /></Private>

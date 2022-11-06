@@ -2,9 +2,8 @@ import React, {useState, useContext} from "react";
 
 import './Login.module.css';
 import { AuthContext } from "../contexts/auth";
-import Input from "../form/Input";
 import SubmitButton from "../form/SubmitButton";
-import styles from '../local/LocalForm.module.css'
+import styles from './Login.module.css';
 
 
 const LoginPage = () => {
@@ -22,11 +21,11 @@ const LoginPage = () => {
 
 
     return (
-        <div id="login">
-            <h1 className="title">Login do Sistema</h1>
+        <div className={styles.login_container}>
+            <h1 className="title">Faça Seu Login</h1>
             <p>logado? {String(authenticated)}</p>
             <form className={styles.form} onSubmit={handleSubmit}>
-                <div className="field">
+                <div className={styles.form_control}>
                     <label htmlFor="email">Email</label>
                     <input
                         type="email"
@@ -36,33 +35,16 @@ const LoginPage = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     />
                 </div>
-                <div className="field">
+                <div className={styles.form_control}>
                     <label htmlFor="Password">Senha</label>
                     <input type="Password" name="Password" id="Password" 
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
-                <div className="actions">
+                {/*<div className="actions">
                     <button className="submit">Entrar</button>
-                </div>
-                <Input
-                    type="text"
-                    text="email"
-                    name="name"
-                    placeholder="Insira seu email"
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                />
-                <Input
-                    type="Password"
-                    text="senha"
-                    name="Password"
-                    placeholder="Insira sua senha"
-                    id="Password" 
-                    onChange={(e) => setPassword(e.target.value)}
-                    value={password}
-                />
+    </div>*/}
                 <SubmitButton text={"Entrar"} />
             </form>
         </div>

@@ -68,7 +68,7 @@ function Locais() {
             <LocalCard
               id={local.id}
               name={local.name}
-              budget={local.budget}
+              cost={local.cost}
               category={local.category.name}
               key={local.id}
               handleRemove={removeLocal}
