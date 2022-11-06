@@ -151,10 +151,10 @@ function Local() {
                     <span>Categoria:</span> {local.category.name}
                   </p>
                   <p>
-                    <span>Total do orçamento:</span> R${local.budget}
+                    <span>Prço:</span> R${local.cost}
                   </p>
                   <p>
-                    <span>Total utilizado:</span> R${local.cost}
+                    <span>Descrição</span> R${local.descricao}
                   </p>
                 </div>
               ) : (

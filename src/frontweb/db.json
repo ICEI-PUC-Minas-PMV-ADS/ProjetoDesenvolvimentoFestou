@@ -8,14 +8,7 @@
         "name": "Espaço aberto com Buffet"
       },
       "cost": 5000,
-      "services": [
-        {
-          "name": "Buffet",
-          "cost": "5000",
-          "description": "Buffet servido a festa todo",
-          "id": "79475653-9d65-4eb0-921b-9b12b6c6be52"
-        }
-      ],
+      "descricao": "Espaço bom",
       "id": 2
     },
     {
@@ -26,7 +19,7 @@
         "name": "Espaço fechado com buffet"
       },
       "cost": 3000,
-      "services": [],
+      "descricao": "Espaço top",
       "id": 3
     },
     {
@@ -35,9 +28,9 @@
         "name": "Espaço aberto com Buffet"
       },
       "budget": "3000",
-      "name": "sim",
-      "cost": 0,
-      "services": [],
+      "name": "Tenda da alegria",
+      "cost": "200",
+      "descricao": "Espaço top",
       "id": 4
     },
     {
@@ -48,8 +41,19 @@
         "name": "Espaço aberto sem buffet"
       },
       "cost": 2000,
-      "services": [],
+      "descricao": "Espaço top",
       "id": 5
+    },
+    {
+      "name": "Teste",
+      "cost": 0,
+      "decricao": "bm demais",
+      "category": {
+        "id": "2",
+        "name": "Espaço fechado com buffet"
+      },
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [
@@ -97,9 +101,13 @@
       "Senha": "secret",
       "name": "teste123",
       "CPF": "123456",
-      "cost": 0,
-      "services": [],
       "id": "fmnS_yQ"
+    },
+    {
+      "Senha": "secret",
+      "name": "Maheus",
+      "CPF": "12345",
+      "id": "AFZAVCL"
     }
   ]
 }

@@ -1,9 +1,13 @@
-# Inicialmente utilizando Json Server
-Execute:
+# Inicialmente utilizando Json Server para simular o backend
+Instalar Node.js\
+Permitir que o windows execute scrips\
+Execute no terminal:
 ### `npm run backend`
 isso desvia da porta 3000 e inicia o json server
 ### `yarn start`
 inicia o react
+
+Realize o login utilizando a senha "secret" para mostrar as paginas
 
 
 

@@ -69,6 +69,7 @@ function Locais() {
               id={local.id}
               name={local.name}
               cost={local.cost}
+              descricao={local.descricao}
               category={local.category.name}
               key={local.id}
               handleRemove={removeLocal}

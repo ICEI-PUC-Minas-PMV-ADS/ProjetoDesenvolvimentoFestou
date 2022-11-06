@@ -8,8 +8,8 @@ function Cadastro() {
 
   function createPost(locador) {
     // initialize cost and services
-    locador.cost = 0
-    locador.services = []
+    //locador.cost = 0
+    //locador.services = []
 
     fetch('http://localhost:5000/locador', {
       method: 'POST',
