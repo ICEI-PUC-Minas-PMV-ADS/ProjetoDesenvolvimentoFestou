@@ -73,7 +73,7 @@ As ferramentas empregadas no projeto são:
 |Ferramenta de repositório e documentação | Github |
 |Editor de código |Visual Studio Code |
 |Ferramentas de comunicação | Microsoft Teams, WhatsApp |
-|Ferramentas de diagramação e desenho de tela | Figma, Canva|
+|Ferramentas de diagramação e desenho de tela | Figma, Canva, LucidChart|
 |Ferramenta para validação e testes da API Restful | Insomnia |
 |Ferramentas de gestão de projetos | GitHub Projects ]
 
