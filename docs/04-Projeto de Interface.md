@@ -12,7 +12,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
+
 
 
 
