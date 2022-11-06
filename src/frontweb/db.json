@@ -25,7 +25,7 @@
         "id": "2",
         "name": "Espaço fechado com buffet"
       },
-      "cost": 0,
+      "cost": 3000,
       "services": [],
       "id": 3
     },
@@ -47,7 +47,7 @@
         "id": "3",
         "name": "Espaço aberto sem buffet"
       },
-      "cost": 0,
+      "cost": 2000,
       "services": [],
       "id": 5
     }
@@ -68,6 +68,38 @@
     {
       "id": 4,
       "name": "Espaço fechado sem buffet"
+    }
+  ],
+  "locador": [
+    {
+      "id": "1",
+      "LocadorId": 1,
+      "LocadorNome": "José da Silva",
+      "LocadorDescriçãoAmbiente": "Ambiente bacana demis",
+      "Ambiente": "José Festas",
+      "LocadorIdade": "30",
+      "LocadorCPF": 12345678900,
+      "LocadorPreco": "3000",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "LocadorId": 2,
+      "LocadorNome": "Maria das Couves",
+      "LocadorDescriçãoAmbiente": "Ambiente Top",
+      "Ambiente": "Salão da Maria",
+      "LocadorIdade": "50",
+      "LocadorCPF": 12345678900,
+      "LocadorPreco": "5000",
+      "password": "456"
+    },
+    {
+      "Senha": "secret",
+      "name": "teste123",
+      "CPF": "123456",
+      "cost": 0,
+      "services": [],
+      "id": "fmnS_yQ"
     }
   ]
 }
