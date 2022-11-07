@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-Company",
+      "appliesTo": "src/frontweb/src/components/pages/Company.js",
+      "type": "launch"
+    }
+  ]
+}
