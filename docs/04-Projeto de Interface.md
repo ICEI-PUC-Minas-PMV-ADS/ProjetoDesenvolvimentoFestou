@@ -36,7 +36,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ### Tela Descrição do Local
 ![Tela Descrição do Local](img/DescriçãoLocal.jpg)
 
-### Tela Descrição do Local
+### Tela Sobre
 ![Tela Descrição da Empresa](img/Sobre.jpg)
 
 ### Tela Perfil
