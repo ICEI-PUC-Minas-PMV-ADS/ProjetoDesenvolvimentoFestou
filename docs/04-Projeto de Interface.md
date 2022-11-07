@@ -18,16 +18,22 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
+### Tela Home
 ![Home](img/Home.jpg)
 
+### Tela Login
 ![Tela Login](img/Login.jpg)
 
+### Tela Cadastro
 ![Tela Cadastro](img/Cadastro.jpg)
 
+### Tela Locais
 ![Tela Locais](img/Locais.jpg)
 
+### Tela Cadastro do Local
 ![Tela Cadastro do Local](img/CadastroLocal.jpg)
 
+### Tela Descrição do Local
 ![Tela Descrição do Local](img/DescriçãoLocal.jpg)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
