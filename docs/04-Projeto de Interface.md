@@ -22,7 +22,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ![Home](img/Home.jpg)
 
 ### Tela Login
-![Tela Login](img/Login.jpg)
+![Tela Login](img/Login2.jpg)
 
 ### Tela Cadastro
 ![Tela Cadastro](img/Cadastro.jpg)
