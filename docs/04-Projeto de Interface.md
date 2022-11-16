@@ -18,6 +18,8 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
+São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
 ### Tela Home
 ![Home](img/Home.jpg)
 
@@ -42,5 +44,4 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ### Tela Perfil
 ![Tela Descrição da Empresa](img/Perfil.jpg)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
+
