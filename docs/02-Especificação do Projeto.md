@@ -10,7 +10,7 @@ Esse projeto tem como intenção o desenvolvimento dessa aplicação focando na 
 |--------------------|------------------------------------|----------------------------------------|
 |![Cerimonialista](img/ceri.jpg) Lays **(Cerimonialista)**, 34 Anos| Encontrar locais com maior facilidade que combinem com as comemorações organizadas | Dificuldade em encontrar locais para locação.|
 |![Pai](img/pai.jpg) Juliano **(Pai)**, 59 Anos| Encontrar um local ideal para festa da sua filha| Gasto desnecessário de tempo em locais que viu anunciados no jornal.|
-|![Noiva](img/noiva.jpg) Marcela **(Noiva)v, 26 Anos| Encontrar um local para sua festa de casamento| Perde a informação de locais que encontrou devido a alta demanda de decisões a serem tomadas.|
+|![Noiva](img/noiva.jpg) Marcela **(Noiva)**, 26 Anos| Encontrar um local para sua festa de casamento| Perde a informação de locais que encontrou devido a alta demanda de decisões a serem tomadas.|
 |![Dono](img/jose.jpg) José **(Dono de salão)**, 63 Anos| Aumentar a visibilidade do seu salão | Não sabe aonde divulgar seu salão|
 
 ## Histórias de Usuários
