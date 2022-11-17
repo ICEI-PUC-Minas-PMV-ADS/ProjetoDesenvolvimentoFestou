@@ -9,9 +9,9 @@ Esse projeto tem como intenção o desenvolvimento dessa aplicação focando na 
 |DESCRIÇÃO| MOTIVAÇÃO |FRUSTRAÇÃO|
 |--------------------|------------------------------------|----------------------------------------|
 |![Cerimonialista](img/ceri.jpg) Lays (cerimonialista)| Encontrar locais com maior facilidade que combinem com as comemorações organizadas | Dificuldade em encontrar locais para locação.|
-|Juliano (pai)| Encontrar um local ideal para festa da sua filha| Gasto desnecessário de tempo em locais que viu anunciados no jornal.|
-|Marcela (noiva)| Encontrar um local para sua festa de casamento| Perde a informação de locais que encontrou devido a alta demanda de decisões a serem tomadas.|
-|José (dono de salão)| Aumentar a visibilidade do seu salão | Não sabe aonde divulgar seu salão|
+|![Cerimonialista](img/pai.jpg) Juliano (pai)| Encontrar um local ideal para festa da sua filha| Gasto desnecessário de tempo em locais que viu anunciados no jornal.|
+|![Cerimonialista](img/noiva.jpg)Marcela (noiva)| Encontrar um local para sua festa de casamento| Perde a informação de locais que encontrou devido a alta demanda de decisões a serem tomadas.|
+|![Cerimonialista](img/jose.jpg)José (dono de salão)| Aumentar a visibilidade do seu salão | Não sabe aonde divulgar seu salão|
 
 ## Histórias de Usuários
 
