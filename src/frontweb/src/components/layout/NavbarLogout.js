@@ -4,19 +4,22 @@ import Container from "./Container";
 import styles from "./Navbar.module.css";
 import logo from "../../img/festou_logo.png";
 
-function Navbar() {
+function NavbarLogout() {
   return (
     <div className={styles.navbar}>
       <Container>
         <Link to="/">
           <img src={logo} alt="Festou" />
         </Link>
+        <Link to="/">
+          <p>"Festou"</p>
+        </Link>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link to="/">Home</Link>
+            <Link to="/login">Login</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/locais">Locais</Link>
+            <Link to="/cadastro">Cadastro</Link>
           </li>
           <li className={styles.item}>
             <Link to="/company">Empresa</Link>
@@ -24,13 +27,10 @@ function Navbar() {
           <li className={styles.item}>
             <Link to="/contact">Contato</Link>
           </li>
-          <li className={styles.item}>
-            <Link to="/perfil">Perfil</Link>
-          </li>
         </ul>
       </Container>
     </div>
   );
 }
 
-export default Navbar;
+export default NavbarLogout;

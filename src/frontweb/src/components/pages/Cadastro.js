@@ -1,3 +1,5 @@
+import React, {useState, useContext} from "react";
+
 import { useHistory } from 'react-router-dom'
 import CadastroForm from '../form/CadastroForm'
 
@@ -5,6 +7,9 @@ import styles from './Cadastro.module.css'
 
 function Cadastro() {
   const history = useHistory()
+  const [name, setName] = useState(null);
+  const [password, setPassword] = useState(null);
+  const [email, setEmail] = useState(null);
 
   function createPost(locador) {
     // initialize cost and services
@@ -12,7 +17,6 @@ function Cadastro() {
     //locador.services = []
 
     fetch('http://localhost:5000/locador', {
-      
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -21,7 +25,7 @@ function Cadastro() {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        history.push('/', { message: 'Local cadastrado com sucesso!' })
+        history.push('/', { message: 'Cadastro realizado com Sucesso!' })
       })
   }
 

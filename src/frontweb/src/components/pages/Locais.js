@@ -71,6 +71,7 @@ function Locais() {
               cost={local.cost}
               descricao={local.descricao}
               category={local.category.name}
+              endereco={local.endereco}
               key={local.id}
               handleRemove={removeLocal}
             />

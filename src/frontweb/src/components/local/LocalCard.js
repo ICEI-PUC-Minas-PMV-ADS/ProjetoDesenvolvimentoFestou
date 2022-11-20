@@ -3,7 +3,7 @@ import styles from './LocalCard.module.css'
 
 import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
 
-function LocalCard({ id, name, descricao, category, handleRemove,cost }) {
+function LocalCard({ id, name, descricao, handleRemove,cost,endereco }) {
   const remove = (e) => {
     e.preventDefault()
     handleRemove(id)
@@ -18,8 +18,8 @@ function LocalCard({ id, name, descricao, category, handleRemove,cost }) {
       <p>
         <span>Descrição:</span> {descricao}
       </p>
-      <p className={styles.category_text}>
-        <span className={`${styles[category.toLowerCase()]}`}></span> {category}
+      <p>
+        <span>Endereço:</span> {endereco}
       </p>
       <div className={styles.local_card_actions}>
         <Link to={'/local/' + id}>
