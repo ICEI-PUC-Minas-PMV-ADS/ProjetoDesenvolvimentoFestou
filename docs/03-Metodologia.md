@@ -62,8 +62,8 @@ As tarefas terão os seguintes status:
  
 O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos do GitHub está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/192  e apresentado na figura abaixo : 
  
- ![processo](img/proj.png)
-Quadro Kanban do grupo !
+ ![processo](img/Kanban.jpg)
+Figura 1. Quadro Kanban do grupo !
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
@@ -73,7 +73,7 @@ As ferramentas empregadas no projeto são:
 |Ferramenta de repositório e documentação | Github |
 |Editor de código |Visual Studio Code |
 |Ferramentas de comunicação | Microsoft Teams, WhatsApp |
-|Ferramentas de diagramação e desenho de tela | Figma, Canva|
+|Ferramentas de diagramação e desenho de tela | Figma, Canva, LucidChart|
 |Ferramenta para validação e testes da API Restful | Insomnia |
 |Ferramentas de gestão de projetos | GitHub Projects ]
 
