@@ -5,6 +5,9 @@ import styles from './Cadastro.module.css'
 
 function Cadastro() {
   const history = useHistory()
+  const [name, setName] = useState(null);
+  const [password, setPassword] = useState(null);
+  const [email, setEmail] = useState(null);
 
   function createPost(locador) {
     // initialize cost and services
@@ -20,7 +23,7 @@ function Cadastro() {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        history.push('/', { message: 'Local cadastrado com sucesso!' })
+        history.push('/', { message: 'Cadastro realizado com Sucesso!' })
       })
   }
 

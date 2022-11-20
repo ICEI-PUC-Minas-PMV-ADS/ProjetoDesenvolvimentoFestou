@@ -1,11 +1,12 @@
 import React, {createContext, useState, useEffect} from "react";
 import { useHistory  } from "react-router-dom";
+import { API, userLogin } from "../service/api";
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({children}) => {
     const history  = useHistory ();
-    const [user,setUser] = useState(null);
+    const [user,setUser] = useState(true);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -19,22 +20,17 @@ export const AuthProvider = ({children}) => {
     }, []);
 
     const login = async (email, password) => {      
-      
-      console.log("login", {email, password});
-
-      const loggedUser = {
-        id:"123",
-        email,
-      };
+           
+      const response = await userLogin(email, password);
+      console.log("login", response.data);
+      const loggedUser = response.data.user;
       
 
       localStorage.setItem("user", JSON.stringify(loggedUser));
 
-
-      if (password ==="secret"){
-        setUser(loggedUser);
-        history.push("/");
-      }
+      setUser(loggedUser);
+      history.push("/");
+      
 
       setUser({id: "123", email})
     };

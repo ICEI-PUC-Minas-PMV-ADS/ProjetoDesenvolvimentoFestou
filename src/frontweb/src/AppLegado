@@ -1,0 +1,75 @@
+import React, {useContext} from "react";
+import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom'
+import Footer from './components/layout/Footer'
+import Navbar from './components/layout/Navbar'
+import Container from './components/layout/Container'
+import Home from './components/pages/Home'
+import Locais from './components/pages/Locais'
+import NewLocal from './components/pages/NewLocal'
+import Company from './components/pages/Company'
+import Contact from './components/pages/Contact'
+import Local from './components/pages/Local'
+import { AuthProvider, AuthContext } from "./components/contexts/auth";
+import LoginPage from './components/pages/Login'
+import Perfil from "./components/pages/Perfil";
+import Cadastro from "./components/pages/Cadastro";
+
+const App = () => { 
+  const Private = ({children}) => {
+    const {authenticated, loading} = useContext(AuthContext);
+    const history = useHistory();
+
+    if (loading){
+      return <div className="loading">loading..</div>;
+    }
+
+    if (!authenticated){
+      return () => {
+        history.push(LoginPage);
+      }
+    }
+
+    return children;
+  }
+  return (
+    <Router>
+      <AuthProvider>
+        <Navbar />
+        <Switch>
+          <Container customClass="min-height">
+            <Route path="/login">
+              <LoginPage/>
+            </Route>
+            <Route path="/cadastro">
+              <Cadastro/>
+            </Route>
+            <Route exact path="/">
+            <Private><Home /></Private>
+            </Route>
+            <Route path="/locais">
+            <Private> <Locais /></Private>
+            </Route>
+            <Route path="/company">
+            <Private> <Company /></Private>
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/perfil"> 
+            <Private> <Perfil /></Private>
+            </Route>
+            <Route path="/newlocal">
+            <Private><NewLocal /></Private>
+            </Route>
+            <Route path="/local/:id">
+            <Private><Local /></Private>
+            </Route>
+          </Container>
+        </Switch>
+        <Footer />
+      </AuthProvider>
+    </Router>
+  )
+}
+
+export default App
