@@ -1,0 +1,51 @@
+@TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hdGhldXMuc2lsdmluby5zb3V6YUBnbWFpbC5jb20iLCJpYXQiOjE2NTM5NjI4ODAsImV4cCI6MTY1Mzk2NjQ4MCwic3ViIjoiMSJ9.E6MeQpEsHAWLnZeF3AM7GAgOGN0MrsA9yYwDb8JiVkI
+### LOGIN
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+    "email":"matheus.silvino.souza@gmail.com",
+    "password":"pucminas"
+}
+
+
+### EXERCICIOS
+GET http://localhost:3000/660/exercicios
+Authorization: Bearer {{TOKEN}}
+
+### CREATE
+POST http://localhost:3000/660/exercicios
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+      "tipo": 0,
+      "nome": "supino",
+      "series": 3,
+      "repeticao": 5,
+      "carga": 15,
+      "instrucoes": "xxx"
+}
+
+### UPDATE
+PUT http://localhost:3000/660/exercicios/3
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+      "tipo": 0,
+      "nome": "supino",
+      "series": 3,
+      "repeticao": 5,
+      "carga": 15,
+      "instrucoes": "xxx"
+}
+
+
+### GET EXERCICIOS
+GET http://localhost:3000/660/exercicios/2
+Authorization: Bearer {{TOKEN}}
+
+### DELETE EXERCICIOS
+DELETE http://localhost:3000/660/exercicios/3
+Authorization: Bearer {{TOKEN}}

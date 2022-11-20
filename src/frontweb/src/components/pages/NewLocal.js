@@ -9,8 +9,7 @@ function NewLocal() {
 
   function createPost(local) {
     // initialize cost and services
-    local.cost = 0
-    local.services = []
+
 
     fetch('http://localhost:5000/locais', {
       method: 'POST',

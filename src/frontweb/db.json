@@ -8,7 +8,8 @@
         "name": "Espaço aberto com Buffet"
       },
       "cost": 5000,
-      "descricao": "Espaço bom",
+      "descricao": "Espaço bacana",
+      "endereco": "Rua mario roberto, 123",
       "id": 2
     },
     {
@@ -20,6 +21,7 @@
       },
       "cost": 3000,
       "descricao": "Espaço top",
+      "endereco": "Rua Maria aparecida, 333",
       "id": 3
     },
     {
@@ -30,7 +32,7 @@
       "budget": "3000",
       "name": "Tenda da alegria",
       "cost": "200",
-      "descricao": "Espaço top",
+      "descricao": "Muito limpo",
       "id": 4
     },
     {
@@ -41,19 +43,9 @@
         "name": "Espaço aberto sem buffet"
       },
       "cost": 2000,
-      "descricao": "Espaço top",
+      "descricao": "Bem bonito",
+      "endereco": "Rua Marcos Palmeira, 222",
       "id": 5
-    },
-    {
-      "name": "Teste",
-      "cost": 0,
-      "decricao": "bm demais",
-      "category": {
-        "id": "2",
-        "name": "Espaço fechado com buffet"
-      },
-      "services": [],
-      "id": 6
     }
   ],
   "categories": [
@@ -84,6 +76,7 @@
       "LocadorIdade": "30",
       "LocadorCPF": 12345678900,
       "LocadorPreco": "3000",
+      "email": "jose@jose",
       "password": "123"
     },
     {
@@ -98,16 +91,10 @@
       "password": "456"
     },
     {
-      "Senha": "secret",
-      "name": "teste123",
-      "CPF": "123456",
-      "id": "fmnS_yQ"
-    },
-    {
-      "Senha": "secret",
-      "name": "Maheus",
-      "CPF": "12345",
-      "id": "AFZAVCL"
+      "Senha": "1234",
+      "name": "teste2@teste",
+      "CPF": "1234567",
+      "id": "sMIo5xh"
     }
   ]
 }

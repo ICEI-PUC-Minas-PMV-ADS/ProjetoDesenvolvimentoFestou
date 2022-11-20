@@ -148,13 +148,13 @@ function Local() {
               {!showLocalForm ? (
                 <div className={styles.form}>
                   <p>
-                    <span>Categoria:</span> {local.category.name}
+                    <span>Preço:</span> R${local.cost}
                   </p>
                   <p>
-                    <span>Prço:</span> R${local.cost}
+                    <span>Descrição:</span> {local.descricao}
                   </p>
                   <p>
-                    <span>Descrição</span> R${local.descricao}
+                    <span>Endereço:</span> {local.endereco}
                   </p>
                 </div>
               ) : (

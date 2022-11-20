@@ -1,0 +1,118 @@
+{
+    "locais": [
+      {
+        "name": "José Recepções",
+        "budget": "10000",
+        "category": {
+          "id": "1",
+          "name": "Espaço aberto com Buffet"
+        },
+        "cost": 5000,
+        "descricao": "Espaço bacana",
+        "endereco": "Rua mario roberto, 123",
+        "id": 2
+      },
+      {
+        "name": "Eventos Joselito",
+        "budget": "3000",
+        "category": {
+          "id": "2",
+          "name": "Espaço fechado com buffet"
+        },
+        "cost": 3000,
+        "descricao": "Espaço top",
+        "endereco": "Rua Maria aparecida, 333",
+        "id": 3
+      },
+      {
+        "category": {
+          "id": "1",
+          "name": "Espaço aberto com Buffet"
+        },
+        "budget": "3000",
+        "name": "Tenda da alegria",
+        "cost": "200",
+        "descricao": "Muito limpo",
+        "id": 4
+      },
+      {
+        "name": "Espaço da hora",
+        "budget": "5000",
+        "category": {
+          "id": "3",
+          "name": "Espaço aberto sem buffet"
+        },
+        "cost": 2000,
+        "descricao": "Bem bonito",
+        "endereco": "Rua Marcos Palmeira, 222",
+        "id": 5
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Espaço aberto com Buffet"
+      },
+      {
+        "id": 2,
+        "name": "Espaço fechado com buffet"
+      },
+      {
+        "id": 3,
+        "name": "Espaço aberto sem buffet"
+      },
+      {
+        "id": 4,
+        "name": "Espaço fechado sem buffet"
+      }
+    ],
+    "locador": [
+      {
+        "id": "1",
+        "LocadorId": 1,
+        "LocadorNome": "José da Silva",
+        "LocadorDescriçãoAmbiente": "Ambiente bacana demis",
+        "Ambiente": "José Festas",
+        "LocadorIdade": "30",
+        "LocadorCPF": 12345678900,
+        "LocadorPreco": "3000",
+        "email":"jose@jose",
+        "password": "123"
+      },
+      {
+        "id": "2",
+        "LocadorId": 2,
+        "LocadorNome": "Maria das Couves",
+        "LocadorDescriçãoAmbiente": "Ambiente Top",
+        "Ambiente": "Salão da Maria",
+        "LocadorIdade": "50",
+        "LocadorCPF": 12345678900,
+        "LocadorPreco": "5000",
+        "password": "456"
+      },
+      {
+        "Senha": "secret",
+        "name": "teste123",
+        "CPF": "123456",
+        "id": "fmnS_yQ"
+      },
+      {
+        "Senha": "secret",
+        "name": "Maheus",
+        "CPF": "12345",
+        "id": "AFZAVCL"
+      },
+      {
+        "Senha": "teste1",
+        "name": "teste1",
+        "CPF": "12345",
+        "id": "BiWM1eF"
+      },
+      {
+        "Senha": "secret",
+        "name": "Matheus",
+        "CPF": "123445",
+        "id": "OJ6M_cu"
+      }
+    ]
+  }

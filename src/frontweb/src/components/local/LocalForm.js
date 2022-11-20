@@ -62,17 +62,18 @@ function LocalForm({ handleSubmit, btnText, localData }) {
       <Input
         type="text"
         text="Descrição do local"
-        name="decricao"
+        name="descricao"
         placeholder="Insira a descrição"
         handleOnChange={handleChange}
         value={local.descricao}
       />
-      <Select
-        name="category_id"
-        text="Selecione a categoria"
-        options={categories}
-        handleOnChange={handleCategory}
-        value={local.category ? local.category.id : ''}
+      <Input
+        type="text"
+        text="Endereço"
+        name="Endereço"
+        placeholder="Insira o endereço do Local"
+        handleOnChange={handleChange}
+        value={local.endereco}
       />
       
       <SubmitButton text={btnText} />
