@@ -12,6 +12,7 @@ function Cadastro() {
     //locador.services = []
 
     fetch('http://localhost:5000/locador', {
+      
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
