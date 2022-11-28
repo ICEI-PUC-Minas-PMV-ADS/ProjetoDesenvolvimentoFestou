@@ -62,7 +62,7 @@ As tarefas terão os seguintes status:
  
 O quadro Kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos do GitHub está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/192  e apresentado na figura abaixo : 
  
- ![processo](img/Kanban.jpg)
+ ![processo](img/Kanban.jpeg)
 Figura 1. Quadro Kanban do grupo !
 ### Ferramentas
 
