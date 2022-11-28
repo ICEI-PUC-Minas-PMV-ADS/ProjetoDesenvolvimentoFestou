@@ -1,46 +1,66 @@
 import { useState } from 'react'
 import Input from '../form/Input'
 import SubmitButton from '../form/SubmitButton'
+import {register} from '../service/auth.services';
+
 
 import styles from './CadastroForm.module.css'
 
 function CadastroForm({ handleSubmit, btnText,locadorData }) {
   const [locador, setLocador] = useState(locadorData || {})
+  const [name, setName] = useState(null);
+  const [password, setPassword] = useState(null);
+  const [email, setEmail] = useState(null);
 
-  const submit = (e) => {
-    e.preventDefault()
-    handleSubmit(locador)
-  }
 
-  function handleChange(e) {
-    setLocador({ ...locador, [e.target.name]: e.target.value })
+  const handleRegister = () => {
+
+    register({
+      name: name,
+      email: email,
+      password: password
+    }).then( res => {
+      console.log(res);
+
+      if(res){
+
+        console.log('Atenção', 'Usuário Cadastrado com sucesso!');
+
+      }else{
+
+         console.log('Atenção', 'Usuário não cadastrado! Tente novamente mais tarde =D');
+      }
+
+    });
+    
   }
 
   return (
-    <form onSubmit={submit} className={styles.form}>
+    <form onSubmit={handleRegister} className={styles.form}>
       <Input
         type="text"
         text="Nome Completo"
         name="name"
         placeholder="Insira seu nome"
-        handleOnChange={handleChange}
-        value={locador.LocadorNome}
+        onChange={setName}
+        value={name}
       />
       <Input
-        type="number"
-        text="CPF"
-        name="CPF"
-        placeholder="Insira seu CPF"
-        handleOnChange={handleChange}
-        value={locador.LocadorCPF}
+        type="text"
+        text="Email"
+        name="email"
+        placeholder="Insira seu Email"
+        onChange={setEmail}
+        value={email}
+        
       />
       <Input
         type="password"
         text="Senha"
         name="Senha"
         placeholder="Insira sua senha"
-        handleOnChange={handleChange}
-        value={locador.password}
+        onChange={setPassword}
+        value={password}
       />
 { /*     <Select
         name="category_id"

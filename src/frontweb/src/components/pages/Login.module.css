@@ -35,3 +35,43 @@
 .form_control input::placeholder {
   color: #7b7b7b;
 }
+
+.textInputLogin {
+  height: 48;
+  margin: 12;
+  margin-top: 100;
+  border-width: 0;
+  padding: 15;
+  border-radius: 14;
+  background-color: '#F7F8F8';
+  align-content: 'center';
+  overflow: 'hidden';
+} 
+
+.textInputSenha{
+  height: 48;
+  margin: 12;
+  margin-top: 5;
+  border-width: 0;
+  padding: 15;
+  border-radius: 14 ;
+  background-color: '#F7F8F8';
+  align-content: 'center'
+}
+.headerText {
+  font-size: 18;
+  line-Height: 30;
+  font-Weight: 'bold';
+  letter-Spacing: 0.25;
+  color: '#ffbb33';
+  align-Self: 'center';
+  margin-Top: 28;
+}
+.buttonStyle {
+  background-Color: '#222';
+  color: '#ffbb33';
+  margin-Left: 50;
+  margin-Right: 50;
+  margin-Top: 5;
+  margin-Bottom: 5;
+}

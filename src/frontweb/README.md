@@ -1,4 +1,4 @@
-# Inicialmente utilizando Json Server para simular o backend
+# As chamadas foram configuradas par autilização da URL definida
 Instalar Node.js\
 Permitir que o windows execute scrips\
 Execute no terminal:
@@ -7,7 +7,9 @@ isso desvia da porta 3000 e inicia o json server
 ### `yarn start`
 inicia o react
 
-Realize o login utilizando a senha "secret" para mostrar as paginas
+Para realizar os testes mais rapidamente trocando entre logado e deslogado, siga o caminho src > componentes contexts > UserContexts
+Agora basta mudar  const [signed, setSigned] = useState(false) para true e vice-versa
+
 
 
 

@@ -9,7 +9,7 @@ const headers = {
 
 export const register = async (param) => {
   try {
-    return await API.post(`${BASE_URL}/register`, param, {
+    return await API.post(`${BASE_URL}/locador`, param, {
     headers: headers
   }).then(
       (response) => {

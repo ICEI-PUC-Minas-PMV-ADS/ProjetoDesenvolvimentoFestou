@@ -11,9 +11,7 @@ function NavbarLogout() {
         <Link to="/">
           <img src={logo} alt="Festou" />
         </Link>
-        <Link to="/">
-          <p>"Festou"</p>
-        </Link>
+
         <ul className={styles.list}>
           <li className={styles.item}>
             <Link to="/login">Login</Link>

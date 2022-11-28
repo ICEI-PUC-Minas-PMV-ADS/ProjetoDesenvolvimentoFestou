@@ -95,6 +95,56 @@
       "name": "teste2@teste",
       "CPF": "1234567",
       "id": "sMIo5xh"
+    },
+    {
+      "name": null,
+      "email": null,
+      "password": null,
+      "id": "oobQfaF"
+    }
+  ],
+  "users": [
+    {
+      "email": "matheus.silvino.souza@gmail.com",
+      "password": "$2a$10$opXXfgv9Ipf5ak8fyRpqL.9lkL6vjoXiFHJI1Nbquxlf6zs8GNoaO",
+      "name": "Matheus Silvino",
+      "id": 1
+    },
+    {
+      "email": "matheus@matheus",
+      "password": "$2a$10$/Vj4Ua65.Jbnp6j3PIR0R.ADszpShKSfO46vBGT7LxaZPAgFuR..W",
+      "name": "Matheus",
+      "id": 2
+    },
+    {
+      "email": "matheus@matheus.com",
+      "password": "$2a$10$fRrm2oYWHhP9iUNmlIaBDOTCrArFmoJ3PexpIdVA7Ysq1CpoF3I7K",
+      "name": "Matheus",
+      "id": 3
+    },
+    {
+      "email": "matheus@matheus.com.br",
+      "password": "$2a$10$7WtTAeQH9QUjwFtJJR2BC.SzbTHrJF8nBwWwSHUNGVckv9hfV6VMy",
+      "name": "Matheus1",
+      "id": 4
+    },
+    {
+      "email": "matheus3@matheus.com",
+      "password": "$2a$10$CFeA7x56KO1tSfL24RKvPu6tnWIHYCTKh2FdFl6wBvsjvrhW43gD6",
+      "name": "Matheus",
+      "id": 5
+    },
+    {
+      "email": "teste@teste",
+      "password": "$2a$10$1MZYixyaifIq7LffJD6RFukpNFk/WbnOGQFxpffNpkk4QJRyTyLL6",
+      "name": "Teste",
+      "id": 6
+    },
+    {
+      "email": "teste3@teste",
+      "password": "$2a$10$41ogYVz7AGZ5kflO6K.C/ubxSitsZB9j3nMeay0rPhnst1mAnGhTS",
+      "name": "teste3",
+      "id": 7
     }
   ]
 }

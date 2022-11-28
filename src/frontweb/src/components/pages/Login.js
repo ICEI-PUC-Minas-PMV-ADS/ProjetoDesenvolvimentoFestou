@@ -12,6 +12,7 @@ import { useHistory  } from "react-router-dom";
 
 
 import {useUser} from '../contexts/UserContext';
+import { BsChevronCompactLeft } from "react-icons/bs";
 
 
 const LoginPage = () => {
@@ -74,8 +75,8 @@ const LoginPage = () => {
 
     return (
         <div className={styles.login_container}>
-            <h1 className="title">Faça Seu Login</h1>
-            <p>logado? {String(authenticated)}</p>
+           <h1 className="title">Faça Seu Login</h1>
+            {/*<p>logado? {String(authenticated)}</p>*/}
             <form className={styles.form} onSubmit={handleLogin}>
                 <div className={styles.form_control}>
                     <label htmlFor="email">Email</label>
@@ -94,13 +95,17 @@ const LoginPage = () => {
                     onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
-                {/*<div className="actions">
+{/*                <div className="actions">
                     <button className="submit">Entrar</button>
     </div>*/}
                 <SubmitButton text={"Entrar"} />
             </form>
             <div><span>Não tem Cadastro? </span><Link to="Cadastro">Clique Aqui</Link></div>
+
         </div>
+        
+
+
     );
 };
 export default LoginPage;
