@@ -15,3 +15,6 @@ A seguir os Artefatos produzidos de acordo com os Requisitos:
 |RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador. | Em Andamento |
 |RF-010| O sistema deve conter área de acesso separadas para locatário e locador | src/components/pages/Home.js / |
 
+# Instruções de Uso
+
+*Em andamento*
