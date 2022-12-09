@@ -4,7 +4,8 @@ A seguir os Artefatos produzidos de acordo com os Requisitos:
 
 |ID    | Descrição do Requisito  | Artefatos Produzidos |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve cadastrar usuários. O Cadastro deve conter : Nome completo, função do usuário no sistema (role), email e senha.  | src/components/pages/Cadastro.js  |
+|RF-001| O sistema deve cadastrar usuários. O Cadastro deve conter : Nome completo, função do usuário no sistema (role), email e senha.  | src/components/pages/Cadastro.js  
+src/components/pages/Cadastro.module.css  |
 |RF-002| O sistema deve permitir acesso aos dados cadastrais dos usuários. |  | 
 |RF-003| O site deve permitir a recuperação e redefinição de senha. |  |
 |RF-004| Em caso de redefinição de senha, o sistema deve enviar um código numérico para o email ou celular do usuário. | |
