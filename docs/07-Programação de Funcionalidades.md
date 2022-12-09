@@ -2,7 +2,7 @@
 
 A seguir os Artefatos produzidos de acordo com os Requisitos:
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição do Requisito  | Artefatos Produzidos |
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve cadastrar usuários. O Cadastro deve conter : Nome completo, função do usuário no sistema (role), email e senha.  |  |
 |RF-002| O sistema deve permitir acesso aos dados cadastrais dos usuários. |  | 
