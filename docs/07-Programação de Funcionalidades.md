@@ -1,15 +1,17 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+A seguir os Artefatos produzidos de acordo com os Requisitos:
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| O sistema deve cadastrar usuários. O Cadastro deve conter : Nome completo, função do usuário no sistema (role), email e senha.  |  |
+|RF-002| O sistema deve permitir acesso aos dados cadastrais dos usuários. |  | 
+|RF-003| O site deve permitir a recuperação e redefinição de senha. |  |
+|RF-004| Em caso de redefinição de senha, o sistema deve enviar um código numérico para o email ou celular do usuário. | |
+|RF-005| O sistema deve permitir ao dono do salão a atribuição de escala de prioridade das demandas.   |  |
+|RF-006| O sistema deve permitir a alteração de data/local pelo usuário.  | |
+|RF-007| O sistema deve conter um ferramenta para filtrar os locais de acordo com o gosto do casal. |  |
+|RF-008| O sistema deve permitir que o locatário anexe imagens do local. |  |
+|RF-009| O sistema deve conter um local para avaliação tanto do locatário como do locador. |  |
+|RF-010| O sistema deve conter área de acesso separadas para locatário e locador |  |
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
