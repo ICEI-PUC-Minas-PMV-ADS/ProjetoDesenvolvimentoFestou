@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-| **Caso de Teste** 	|  **CT-01 – Cadastrar Usuários** 	|
+| **Caso de Teste** 	|  **CT01 – Cadastro de Usuários** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O sistema deve cadastrar usuários. O Cadastro deve conter : Nome completo, função do usuário no sistema (role), email e senha. |
 | Objetivo do Teste 	| Observar se o usuário conseguiu efetuar o cadastro na aplicação. |
