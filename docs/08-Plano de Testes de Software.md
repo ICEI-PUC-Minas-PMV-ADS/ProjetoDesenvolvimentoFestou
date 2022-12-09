@@ -7,6 +7,7 @@
 | Passos 	|  - Acessar o navegador - Informar o endereço do site https://localhost:3000/Cadastro <br> - Clicar em "Cadastra-se" <br> - Preencher os campos obrigatórios (nome, sobrenome, e-mail, senha, CPF/CNPJ, )  <br> - Clicar em "Cadastrar-se" <br>|
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 <br>
+
 | **Caso de Teste** 	|  **CT02 –  Acesso ao Cadastro ** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - O sistema deve permitir acesso aos dados cadastrais dos usuários. |
